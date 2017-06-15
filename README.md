@@ -5,16 +5,18 @@ These can be found in the `./src/converter.js` file.
 
 It also provides access to the low-level transformation functions which actually do the encoding and decoding.
 These can be found in the `./src/transformers.js` file. 
+
 ### node.js applications
 In your project directory:
 ````
-npm install apg-conv --save
+npm install apg-conv-api --save
 ````
 In your application code, for example:
 ````
 var apgConv = require("apg-conv-api");
 var buf = apgConv.converter.decode("UTF8", chars);
 ````
+
 ### HTML applications
 **apg-conv-api** has been bundled (with [webpack](https://webpack.js.org/)) for use in web page applications.
 Use one of the script links:
