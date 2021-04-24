@@ -1,6 +1,6 @@
 # apg-conv-api
 
-> _**deprecated** Use the updated version [**apg-js**](https://github.com/ldthomas/apg-js)._
+> _**Deprecated** Use the updated version [**apg-js**](https://github.com/ldthomas/apg-js) instead._
 
 **apg-conv-api** is the API for [**apg-conv**](https://github.com/ldthomas/apg-conv).
 It provides the functions for disassembling the data types as well as the encoding and decoding functions.
